@@ -6,7 +6,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-bg flex justify-center items-center py-10">
+    <div className="w-full bg-bg flex justify-center items-center p-8">
       <div className="flex w-[375] flex-col md:flex-row md:gap-4 md:w-[690] md:h-[380] lg:flex-row lg:gap-6 lg:w-[1050] lg:h-fit">
         <div className="heroLeft w-full flex flex-col md:w-1/2 lg:w-1/2 gap-2">
           <div className="title text-string">
