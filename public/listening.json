@@ -1,0 +1,833 @@
+{
+  "ID": "ef6b69aa-2ec2-4c65-bf48-294fd12e13fc",
+  "Name": "Practice Test 2",
+  "createdAt": "2025-03-21T09:01:23.808Z",
+  "updatedAt": "2025-03-21T09:01:23.808Z",
+  "Parts": [
+    {
+      "ID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+      "Content": "PART 1: Information recognition (13 questions)",
+      "SubContent": "",
+      "TopicID": "ef6b69aa-2ec2-4c65-bf48-294fd12e13fc",
+      "createdAt": "2025-03-21T09:01:30.167Z",
+      "updatedAt": "2025-03-21T09:01:30.167Z",
+      "Questions": [
+        {
+          "ID": "ed7cc8d7-1728-4e2f-b4ee-c1d500aa3e49",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A mom is calling her son to remind him about picking up groceries. How much is an egg?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A mom is calling her son to remind him about picking up groceries. How much is an egg?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A mom is calling her son to remind him about picking up groceries. How much is an egg?",
+            "groupContent": {
+              "title": "A mom is calling her son to remind him about picking up groceries. How much is an egg?",
+              "audioKey": ""
+            },
+            "options": ["£1.50", "£2.50", "£3.50"],
+            "correctAnswer": "£1.50",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:30.769Z",
+          "updatedAt": "2025-03-21T09:01:30.769Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "419ab54e-4ab5-42e4-8d84-1f36320a9529",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "An author is talking about her daily routine. When does she usually write?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "An author is talking about her daily routine. When does she usually write?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "An author is talking about her daily routine. When does she usually write?",
+            "groupContent": {
+              "title": "An author is talking about her daily routine. When does she usually write?",
+              "audioKey": ""
+            },
+            "options": [
+              "In the mornings",
+              "In the afternoons",
+              "In the evenings"
+            ],
+            "correctAnswer": "In the mornings",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:30.903Z",
+          "updatedAt": "2025-03-21T09:01:30.903Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "6bee21dd-bf68-4637-9855-2df9ad2c9256",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "Jack is calling to invite a friend to his house. What color is Jack’s house?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Jack is calling to invite a friend to his house. What color is Jack’s house?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Jack is calling to invite a friend to his house. What color is Jack’s house?",
+            "groupContent": {
+              "title": "Jack is calling to invite a friend to his house. What color is Jack’s house?",
+              "audioKey": ""
+            },
+            "options": ["Blue", "Purple", "Red"],
+            "correctAnswer": "Blue",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.082Z",
+          "updatedAt": "2025-03-21T09:01:31.082Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "032aad9b-5818-4977-ba6a-d1a8f7451a84",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A man is calling his wife. Where will they meet?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A man is calling his wife. Where will they meet?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A man is calling his wife. Where will they meet?",
+            "groupContent": {
+              "title": "A man is calling his wife. Where will they meet?",
+              "audioKey": ""
+            },
+            "options": ["At home", "In the garden", "Outside the shop"],
+            "correctAnswer": "Outside the shop",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.216Z",
+          "updatedAt": "2025-03-21T09:01:31.216Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "3ca8376e-3cef-4d1b-8db2-00afc7dd9ac6",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A man is talking about his eating habits. What time does he usually eat?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A man is talking about his eating habits. What time does he usually eat?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A man is talking about his eating habits. What time does he usually eat?",
+            "groupContent": {
+              "title": "A man is talking about his eating habits. What time does he usually eat?",
+              "audioKey": ""
+            },
+            "options": ["6 o’clock", "7 o’clock", "8 o’clock"],
+            "correctAnswer": "7 o’clock",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.349Z",
+          "updatedAt": "2025-03-21T09:01:31.349Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "1c579a2c-86e3-406f-abfb-ebec47c9a35a",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "Julie is asking her professor about the assignment. When is the work due?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Julie is asking her professor about the assignment. When is the work due?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Julie is asking her professor about the assignment. When is the work due?",
+            "groupContent": {
+              "title": "Julie is asking her professor about the assignment. When is the work due?",
+              "audioKey": ""
+            },
+            "options": [
+              "On Thursday morning",
+              "On Friday morning",
+              "On Saturday morning"
+            ],
+            "correctAnswer": "On Friday morning",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.481Z",
+          "updatedAt": "2025-03-21T09:01:31.481Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "08fcf190-b39f-48a1-bd30-4452f79bca00",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "James is talking about his family members. In what way are his mother and his aunt alike?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "James is talking about his family members. In what way are his mother and his aunt alike?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "James is talking about his family members. In what way are his mother and his aunt alike?",
+            "groupContent": {
+              "title": "James is talking about his family members. In what way are his mother and his aunt alike?",
+              "audioKey": ""
+            },
+            "options": [
+              "They were both thin",
+              "They both had blue eyes",
+              "They both had long hair"
+            ],
+            "correctAnswer": "They both had blue eyes",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.669Z",
+          "updatedAt": "2025-03-21T09:01:31.669Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "e3626c3d-15f7-4076-b113-cd9e9f383912",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A tour guide is introducing a tourist destination. How many people live in the town?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A tour guide is introducing a tourist destination. How many people live in the town?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A tour guide is introducing a tourist destination. How many people live in the town?",
+            "groupContent": {
+              "title": "A tour guide is introducing a tourist destination. How many people live in the town?",
+              "audioKey": ""
+            },
+            "options": ["8,000", "9,000", "10,000"],
+            "correctAnswer": "9,000",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.802Z",
+          "updatedAt": "2025-03-21T09:01:31.802Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "8035a120-218a-4d6b-87c0-e57d11e6c4e7",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+            "groupContent": {
+              "title": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+              "audioKey": ""
+            },
+            "options": ["Math classes", "Geography classes", "History classes"],
+            "correctAnswer": "History classes",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:31.939Z",
+          "updatedAt": "2025-03-21T09:01:31.939Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "2e0cf4d1-49ab-47ee-bf43-af729cd98699",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+            "groupContent": {
+              "title": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+              "audioKey": ""
+            },
+            "options": ["11 p.m", "1 p.m", "6 p.m"],
+            "correctAnswer": "1 p.m",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:32.131Z",
+          "updatedAt": "2025-03-21T09:01:32.131Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "f5fefe92-3bb3-4364-b47b-26fae27f4986",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A man is talking about his routine after work. What is he going to do after work?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A man is talking about his routine after work. What is he going to do after work?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A man is talking about his routine after work. What is he going to do after work?",
+            "groupContent": {
+              "title": "A man is talking about his routine after work. What is he going to do after work?",
+              "audioKey": ""
+            },
+            "options": ["Goes running", "Cycles home", "Meets his client"],
+            "correctAnswer": "Cycles home",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:32.264Z",
+          "updatedAt": "2025-03-21T09:01:32.264Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "efd055d9-a13c-4875-9822-ac5b63c75c09",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "A professor is talking to his student. What does the professor ask his student to do?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "A professor is talking to his student. What does the professor ask his student to do?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "A professor is talking to his student. What does the professor ask his student to do?",
+            "groupContent": {
+              "title": "A professor is talking to his student. What does the professor ask his student to do?",
+              "audioKey": ""
+            },
+            "options": [
+              "Speak at a conference",
+              "Write another thesis",
+              "Tutor another student"
+            ],
+            "correctAnswer": "Speak at a conference",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:32.398Z",
+          "updatedAt": "2025-03-21T09:01:32.398Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "e55e88a8-38f7-4ece-9ca6-475a953ff62b",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+          "Content": "Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
+            "groupContent": {
+              "title": "Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
+              "audioKey": ""
+            },
+            "options": [
+              "Reading books",
+              "Going to the theatre",
+              "Playing chess with her cousin"
+            ],
+            "correctAnswer": "Going to the theatre",
+            "partID": "2662c6aa-d65f-4d00-b795-0990ec60900d",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:32.533Z",
+          "updatedAt": "2025-03-21T09:01:32.533Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "5ab7edc3-4da2-4186-81d9-930dacd8977e",
+      "Content": "PART 2: Information Matching (4 questions)",
+      "SubContent": "",
+      "TopicID": "ef6b69aa-2ec2-4c65-bf48-294fd12e13fc",
+      "createdAt": "2025-03-21T09:01:30.300Z",
+      "updatedAt": "2025-03-21T09:01:30.300Z",
+      "Questions": [
+        {
+          "ID": "335a7f40-1c4a-4b89-9211-88de3ac7a1b1",
+          "Type": "matching",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "5ab7edc3-4da2-4186-81d9-930dacd8977e",
+          "Content": "Four people are talking about travelling to work. Complete the sentences below.",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Four people are talking about travelling to work. Complete the sentences below.",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Four people are talking about travelling to work. Complete the sentences below.",
+            "groupContent": {
+              "title": "Four people are talking about travelling to work. Complete the sentences below.",
+              "audioKey": ""
+            },
+            "leftItems": [
+              "1. Speaker A mainly _____.",
+              "2. Speaker B usually _____.",
+              "3. Speaker C usually_____.",
+              "4. Speaker D primarily _____."
+            ],
+            "rightItems": [
+              "A. travels by car",
+              "B. walks alone",
+              "C. travels by bike",
+              "D. travels by bus",
+              "E. walks with a friend",
+              "F. walks with their mother"
+            ],
+            "correctAnswers": [
+              {
+                "left": "1. Speaker A mainly _____.",
+                "right": "D. travels by bus"
+              },
+              {
+                "left": "2. Speaker B usually _____.",
+                "right": "A. travels by car"
+              },
+              {
+                "left": "3. Speaker C usually _____.",
+                "right": "B. walks alone"
+              },
+              {
+                "left": "4. Speaker D primarily _____.",
+                "right": "E. walks with a friend"
+              }
+            ],
+            "partID": "5ab7edc3-4da2-4186-81d9-930dacd8977e",
+            "type": "matching"
+          },
+          "createdAt": "2025-03-21T09:01:32.731Z",
+          "updatedAt": "2025-03-21T09:01:32.731Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+      "Content": "PART 3: Opinion Matching (4 questions)",
+      "SubContent": "15. Listen to two people discussing music. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman.",
+      "TopicID": "ef6b69aa-2ec2-4c65-bf48-294fd12e13fc",
+      "createdAt": "2025-03-21T09:01:30.431Z",
+      "updatedAt": "2025-03-21T09:01:30.431Z",
+      "Questions": [
+        {
+          "ID": "ca636280-0137-4838-9c90-e34d2cca837c",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+          "Content": "Building design can influence people's behavior.",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Building design can influence people's behavior.",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Building design can influence people's behavior.",
+            "groupContent": {
+              "title": "Building design can influence people's behavior.",
+              "audioKey": ""
+            },
+            "options": ["Man", "Woman", "Both"],
+            "correctAnswer": "Both",
+            "partID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:33.065Z",
+          "updatedAt": "2025-03-21T09:01:33.065Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "ffcfbc13-5f14-4e49-b679-1caaea3f19ad",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+          "Content": "Creating community can take time.",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Creating community can take time.",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Creating community can take time.",
+            "groupContent": {
+              "title": "Creating community can take time.",
+              "audioKey": ""
+            },
+            "options": ["Man", "Woman", "Both"],
+            "correctAnswer": "Woman",
+            "partID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:33.249Z",
+          "updatedAt": "2025-03-21T09:01:33.249Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "50c46ad9-3a6d-4335-b7db-99f06f81d5ba",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+          "Content": "Work communities and social communities are the same.",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Work communities and social communities are the same.",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Work communities and social communities are the same.",
+            "groupContent": {
+              "title": "Work communities and social communities are the same.",
+              "audioKey": ""
+            },
+            "options": ["Man", "Woman", "Both"],
+            "correctAnswer": "Man",
+            "partID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:33.466Z",
+          "updatedAt": "2025-03-21T09:01:33.466Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "133c176e-b8d6-4f5d-9853-f2f901bf591d",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+          "Content": "Technology has changed how community forms.",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "Technology has changed how community forms.",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "content": "Technology has changed how community forms.",
+            "groupContent": {
+              "title": "Technology has changed how community forms.",
+              "audioKey": ""
+            },
+            "options": ["Man", "Woman", "Both"],
+            "correctAnswer": "Both",
+            "partID": "ac57c88e-6953-41fd-98e9-97b60cf7ef3b",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:33.802Z",
+          "updatedAt": "2025-03-21T09:01:33.802Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        }
+      ]
+    },
+    {
+      "ID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+      "Content": "PART 4: Inference (2 talks - 4 questions)",
+      "SubContent": "Listen to two long monologues and choose the correct answer for each question.",
+      "TopicID": "ef6b69aa-2ec2-4c65-bf48-294fd12e13fc",
+      "createdAt": "2025-03-21T09:01:30.633Z",
+      "updatedAt": "2025-03-21T09:01:30.633Z",
+      "Questions": [
+        {
+          "ID": "dc2f887f-089e-4bc6-9da5-845522038d82",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+          "Content": "How does the speaker recommend saving money effectively?",
+          "SubContent": null,
+          "GroupContent": null,
+          "AnswerContent": {
+            "content": "How does the speaker recommend saving money effectively?",
+            "options": [
+              "Saving a large amount only on a daily basis.",
+              "Organizing their resources more effectively.",
+              "Use credit cards to manage expenses."
+            ],
+            "correctAnswer": "Organizing their resources more effectively.",
+            "partID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:33.934Z",
+          "updatedAt": "2025-03-21T09:01:33.934Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "971dad45-7ed5-47b3-a542-e0b2c1c9a606",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+          "Content": "Who does the speaker believe can save money most successfully?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "16. Monologue 1: Listen to an expert giving a talk about managing financial spending",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "groupContent": {
+              "title": "16. Monologue 1: Listen to an expert giving a talk about managing financial spending",
+              "audioKey": ""
+            },
+            "content": "Who does the speaker believe can save money most successfully?",
+            "options": [
+              "Get advice from people that have experience.",
+              "Keep all your savings in a single account.",
+              "Avoid making any long-term financial plans."
+            ],
+            "correctAnswer": "Get advice from people that have experience.",
+            "partID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:34.068Z",
+          "updatedAt": "2025-03-21T09:01:34.068Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "17de0370-1a23-49df-8d3b-7129719616b8",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+          "Content": "What is the speaker’s opinion about security cameras at work?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "17. Monologue 2: Listen to an person sharing their opinion about security cameras",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "groupContent": {
+              "title": "17. Monologue 2: Listen to an person sharing their opinion about security cameras",
+              "audioKey": ""
+            },
+            "content": "What is the speaker’s opinion about security cameras at work?",
+            "options": [
+              "People are unnecessarily worried about them.",
+              "Most people don't even realize cameras are present.",
+              "Cameras should be placed to ensure complete coverage."
+            ],
+            "correctAnswer": "People are unnecessarily worried about them.",
+            "partID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:34.298Z",
+          "updatedAt": "2025-03-21T09:01:34.298Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        },
+        {
+          "ID": "9867df08-31d5-4ab2-80aa-3d777c3ce137",
+          "Type": "multiple-choice",
+          "AudioKeys": null,
+          "ImageKeys": null,
+          "SkillID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+          "PartID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+          "Content": "How does the speaker suggest people should feel about security cameras at work?",
+          "SubContent": null,
+          "GroupContent": {
+            "title": "17. Monologue 2: Listen to an person sharing their opinion about security cameras",
+            "audioKey": ""
+          },
+          "AnswerContent": {
+            "groupContent": {
+              "title": "17. Monologue 2: Listen to an person sharing their opinion about security cameras",
+              "audioKey": ""
+            },
+            "content": "How does the speaker suggest people should feel about security cameras at work?",
+            "options": [
+              "People often find them intimidating and invasive",
+              "Many believe they are only useful after incidents have occurred.",
+              "People should feel reassured about their presence."
+            ],
+            "correctAnswer": "People should feel reassured about their presence.",
+            "partID": "917b53e6-a0d4-4d6b-a558-fba30a302292",
+            "type": "multiple-choice"
+          },
+          "createdAt": "2025-03-21T09:01:34.431Z",
+          "updatedAt": "2025-03-21T09:01:34.431Z",
+          "Skill": {
+            "ID": "e752480a-0367-45c1-90a4-d8f2c3537652",
+            "Name": "LISTENING",
+            "createdAt": "2025-03-21T09:01:23.279Z",
+            "updatedAt": "2025-03-21T09:01:23.279Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -118,12 +118,12 @@ const QuestionList = () => {
         </div>
 
         {/* Question Navigator */}
-        {/* <QuestionNavigator
+        <QuestionNavigator
           totalQuestions={totalQuestions}
           currentQuestionIndex={currentQuestionIndex}
           flaggedQuestions={flaggedQuestions}
           onNavigate={handleNavigate}
-        /> */}
+        />
       </div>
     </DndProvider>
   );

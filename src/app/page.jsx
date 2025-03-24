@@ -10,8 +10,7 @@ export default function Home() {
       {/* <Hero />
       <Trending /> */}
       <div className="bg-gray-300 p-4 min-h-screen flex justify-around">
-        <QuestionList />
-        <Sidebar />
+        <h1>Listening Test</h1>
       </div>
     </>
   );
