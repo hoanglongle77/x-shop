@@ -4,7 +4,10 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectAnswer } from "@/redux/questionSlice/questionSlice";
 import DragAndDropOptions from "../DragAndDropOptionsư/DragAndDropOptions";
-import { QuestionType, renderTextWithDropdowns } from "@/constant/questionType";
+import { QuestionType } from "@/constant/questionType";
+import MatchingList from "../TestType/MatchingList";
+import DDList from "../TestType/DDList";
+import OrderList from "../TestType/OrderList";
 
 const AnswerOptions = ({ question }) => {
   // const dispatch = useDispatch();
@@ -17,18 +20,12 @@ const AnswerOptions = ({ question }) => {
   // };
 
   switch (question.Type) {
-    case QuestionType.MultipleChoice:
-      return <h1>Type Multiple Choice</h1>;
     case QuestionType.DropdownList:
-      return <div>{renderTextWithDropdowns(question?.Content)}</div>;
+      return <DDList dataSource={question} />;
     case QuestionType.Ordering:
-      return <h1>Type Ordering</h1>;
+      return <OrderList dataSource={question} />;
     case QuestionType.Matching:
-      return (
-        <div>
-          <p>{question.Content}</p>
-        </div>
-      );
+      return <MatchingList dataSource={question} />;
     default:
       return null;
   }

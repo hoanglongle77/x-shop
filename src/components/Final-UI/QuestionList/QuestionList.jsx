@@ -102,7 +102,7 @@ const QuestionList = () => {
           </button>
           {isLastQuestion ? (
             <button
-              className="bg-green-500 text-white p-2 h-[48px] w-[114px] rounded-4xl"
+              className="bg-blue-500 text-white p-2 h-[48px] w-[114px] rounded-4xl"
               onClick={handleSubmit}
             >
               Submit
@@ -118,12 +118,12 @@ const QuestionList = () => {
         </div>
 
         {/* Question Navigator */}
-        <QuestionNavigator
+        {/* <QuestionNavigator
           totalQuestions={totalQuestions}
           currentQuestionIndex={currentQuestionIndex}
           flaggedQuestions={flaggedQuestions}
           onNavigate={handleNavigate}
-        />
+        /> */}
       </div>
     </DndProvider>
   );
