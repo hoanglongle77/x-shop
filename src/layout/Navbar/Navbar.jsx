@@ -1,55 +1,76 @@
 "use client";
+import { useState } from "react";
+import {
+  Menu,
+  X,
+  Home,
+  Lightbulb,
+  ShoppingCart,
+  Newspaper,
+} from "lucide-react";
 import Link from "next/link";
-import React, { useState } from "react";
+import clsx from "clsx";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const navLinks = [
+  { href: "/", label: "Home", icon: <Home size={20} /> },
+  { href: "/recommend", label: "AI Suggest", icon: <Lightbulb size={20} /> },
+  { href: "/products", label: "Products", icon: <ShoppingCart size={20} /> },
+  { href: "/blog", label: "Blog", icon: <Newspaper size={20} /> },
+];
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-bg flex justify-between items-center p-4 relative">
-      <div className="text-white text-2xl lg:ms-[50px]">
-        <h1>X Shop</h1>
-      </div>
-
-      <div className="text-string hidden lg:me-[50px] lg:flex lg:items-center lg:gap-10">
-        <Link href="/">Marketplace</Link>
-        <Link href="/">Ranking</Link>
-        <Link href="/">Connect Wallet</Link>
-        <Link className="bg-blue-400 p-3 rounded-[20px]" href="/">
-          Sign In
+    <header className="bg-background text-foreground shadow-md fixed top-0 w-full z-50">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        {/* Logo */}
+        <Link
+          href="/"
+          className="text-primary font-bold text-xl tracking-widest hover:opacity-80 transition"
+        >
+          TechHub<span className="text-accent">.AI</span>
         </Link>
+
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex space-x-6 items-center">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="flex items-center gap-2 text-sm font-medium hover:text-primary transition duration-200"
+            >
+              {link.icon}
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        {/* Mobile Toggle */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden text-foreground hover:text-primary transition"
+        >
+          {menuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
       </div>
 
-      <div className="text-white lg:hidden cursor-pointer" onClick={toggleMenu}>
-        <h1>{isOpen ? "Close Menu" : "Mobile Menu"}</h1>
-      </div>
-
-      {isOpen && (
-        <div className="absolute top-full left-0 z-10 w-full bg-bg-secondary text-white flex flex-col items-end p-4 gap-4 lg:hidden">
-          <Link href="/" onClick={toggleMenu}>
-            Marketplace
-          </Link>
-          <Link href="/" onClick={toggleMenu}>
-            Ranking
-          </Link>
-          <Link href="/" onClick={toggleMenu}>
-            Connect Wallet
-          </Link>
-          <Link
-            className="bg-blue-400 p-3 rounded-[20px]"
-            href="/"
-            onClick={toggleMenu}
-          >
-            Sign In
-          </Link>
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="md:hidden bg-muted border-t border-border px-4 py-4 space-y-3">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="flex items-center gap-3 text-sm font-medium hover:text-primary transition"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link.icon}
+              {link.label}
+            </Link>
+          ))}
         </div>
       )}
-    </div>
+    </header>
   );
-};
-
-export default Navbar;
+}
