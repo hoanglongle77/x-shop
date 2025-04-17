@@ -1,5 +1,5 @@
 "use client";
-
+import CommonBG from "@/layout/CommonBG/CommonBG";
 import BlogCard from "@/shared/UI/store/BlogCard/BlogCard";
 export default function Lastest() {
   const blogs = [
@@ -33,15 +33,16 @@ export default function Lastest() {
   ];
 
   return (
-    <section className="w-full px-4 sm:px-6 py-8">
-      <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6">
-        Bài Viết Mới Nhất
+    <div className="relative z-10 pt-8">
+      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 text-center">
+        Bài Viết Mới Nhất 📰
       </h2>
+
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {blogs.map((blog, index) => (
           <BlogCard key={index} blog={blog} />
         ))}
       </div>
-    </section>
+    </div>
   );
 }

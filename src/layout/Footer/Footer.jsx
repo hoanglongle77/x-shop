@@ -3,9 +3,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-muted text-foreground border-t border-border mt-16">
+    <footer className="bg-muted text-foreground">
       {/* Glow Border Top */}
-      <div className="h-1 w-full bg-gradient-to-r from-primary via-secondary to-accent" />
 
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* About */}

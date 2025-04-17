@@ -15,7 +15,7 @@ const navLinks = [
   { href: "/", label: "Home", icon: <Home size={20} /> },
   { href: "/recommend", label: "AI Suggest", icon: <Lightbulb size={20} /> },
   { href: "/products", label: "Products", icon: <ShoppingCart size={20} /> },
-  { href: "/blog", label: "Blog", icon: <Newspaper size={20} /> },
+  { href: "/blogs", label: "Blog", icon: <Newspaper size={20} /> },
 ];
 
 export default function Navbar() {

@@ -6,7 +6,7 @@ const ShopLayout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div>{children}</div>
+      {children}
       <Footer />
     </>
   );

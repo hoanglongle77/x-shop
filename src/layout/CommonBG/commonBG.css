@@ -1,0 +1,38 @@
+@layer utilities {
+
+    .neon-border-top-bottom::before,
+    .neon-border-top-bottom::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 8px;
+        background: linear-gradient(90deg, #ff4ecd, #c5ff4a, #bb86fc, #ff4ecd);
+        background-size: 300% 100%;
+        animation: rgb-glow 6s linear infinite;
+        z-index: 20;
+        filter: drop-shadow(0 0 8px #ff4ecd) drop-shadow(0 0 10px #c5ff4a);
+    }
+
+    .neon-border-top-bottom::before {
+        top: 0;
+    }
+
+    .neon-border-top-bottom::after {
+        bottom: 0;
+    }
+
+    @keyframes rgb-glow {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}

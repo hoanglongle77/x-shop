@@ -27,8 +27,8 @@ const dummyProducts = [
 
 export default function FeaturedProducts() {
   return (
-    <section className="w-full px-4 sm:px-6 py-10">
-      <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6">
+    <div className="relative z-10">
+      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 text-center tracking-tight">
         Sản phẩm nổi bật 🔥
       </h2>
 
@@ -37,6 +37,6 @@ export default function FeaturedProducts() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-    </section>
+    </div>
   );
 }
