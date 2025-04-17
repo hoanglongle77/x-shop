@@ -1,0 +1,26 @@
+/* neon-glow-animation */
+@keyframes neonPulse {
+    0% {
+        border-color: #00fff7;
+        box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7, 0 0 30px #00fff7;
+    }
+
+    50% {
+        border-color: #ff00f7;
+        box-shadow: 0 0 10px #ff00f7, 0 0 20px #ff00f7, 0 0 30px #ff00f7;
+    }
+
+    100% {
+        border-color: #00fff7;
+        box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7, 0 0 30px #00fff7;
+    }
+}
+
+.neon-glow-animation {
+    animation: neonPulse 5s ease-in-out infinite;
+    border-radius: 1rem;
+}
+
+.neon-glow {
+    z-index: 1;
+}
