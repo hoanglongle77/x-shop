@@ -9,13 +9,12 @@ import {
   Newspaper,
 } from "lucide-react";
 import Link from "next/link";
-import clsx from "clsx";
 
 const navLinks = [
-  { href: "/", label: "Home", icon: <Home size={20} /> },
-  { href: "/recommend", label: "AI Suggest", icon: <Lightbulb size={20} /> },
-  { href: "/products", label: "Products", icon: <ShoppingCart size={20} /> },
-  { href: "/blogs", label: "Blog", icon: <Newspaper size={20} /> },
+  { href: "/", label: "Trang chủ", icon: <Home size={20} /> },
+  { href: "/recommend", label: "Gợi ý của AI", icon: <Lightbulb size={20} /> },
+  { href: "/products", label: "Sản phẩm", icon: <ShoppingCart size={20} /> },
+  { href: "/blogs", label: "Bài viết", icon: <Newspaper size={20} /> },
 ];
 
 export default function Navbar() {

@@ -2,7 +2,7 @@
 
 import { Card, Button, Typography } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
-
+import Image from "next/image";
 const { Meta } = Card;
 
 export default function ProductCard({ product }) {
@@ -23,7 +23,9 @@ export default function ProductCard({ product }) {
       }}
       cover={
         <div className="bg-[#1a1a1a] p-4 rounded-t-2xl">
-          <img
+          <Image
+            width={200}
+            height={200}
             alt={product.name}
             src={product.image}
             className="h-48 w-full object-contain transition-transform duration-200 hover:scale-105"
