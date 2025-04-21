@@ -8,7 +8,7 @@ export default function PageHeader({ title, description }) {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="relative text-center py-12 px-4 sm:px-6 lg:px-8 bg-background/2 backdrop-blur-md border-2 border-white/10 shadow-[0_0_20px_rgba(0,255,255,0.5)] rounded-[20px] neon-glow overflow-hidden"
+      className="relative text-center py-12 px-4 mt-6 sm:px-6 lg:mt-0 lg:px-8 bg-background/2 backdrop-blur-md border-2 border-white/10 shadow-[0_0_20px_rgba(0,255,255,0.5)] rounded-[20px] neon-glow overflow-hidden"
     >
       <div className="absolute inset-0 border-4 border-transparent rounded-xl neon-glow-animation pointer-events-none"></div>
 
