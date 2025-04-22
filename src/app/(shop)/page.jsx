@@ -1,10 +1,8 @@
-import Adsense from "@/components/AdSense/AdSense";
 import CategoryHighlight from "@/components/home/CategoryHighlight/CategoryHighlight";
 import FeaturedProducts from "@/components/home/Featured/Featured";
 import HeroSection from "@/components/home/HeroSection/HeroSection";
 import Lastest from "@/components/home/Lastest/Lastest";
 import CommonBG from "@/layout/CommonBG/CommonBG";
-import BlogModal from "@/shared/UI/store/BlogModal/BlogModal";
 import React from "react";
 
 export const metadata = {
@@ -19,7 +17,6 @@ const page = () => {
       <HeroSection />
       <CommonBG>
         <FeaturedProducts />
-        <Adsense />
         <CategoryHighlight />
         <Lastest />
       </CommonBG>

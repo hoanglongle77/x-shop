@@ -1,13 +1,12 @@
 "use client";
 import BlogCard from "@/shared/UI/store/BlogCard/BlogCard";
-import BlogModal from "@/shared/UI/store/BlogModal/BlogModal";
 import { Row, Col } from "antd";
-import { useState } from "react";
 import React from "react";
 
 const Lastest = () => {
   const blogs = [
     {
+      slug: "tuong-lai-cua-ai-trong-linh-vuc-cong-nghe",
       title: "Tương Lai của AI trong Lĩnh Vực Công Nghệ",
       excerpt:
         "AI đang thay đổi cách thức mà chúng ta sống và làm việc. Tìm hiểu về sự phát triển của AI và ảnh hưởng của nó...",
@@ -17,6 +16,7 @@ const Lastest = () => {
       tags: ["AI", "Tương Lai", "Công Nghệ"],
     },
     {
+      slug: "ung-dung-blockchain-trong-thuong-mai-dien-tu",
       title: "Ứng Dụng Blockchain Trong Thương Mại Điện Tử",
       excerpt:
         "Blockchain không chỉ là nền tảng cho các loại tiền điện tử, mà còn có tiềm năng cách mạng hóa ngành thương mại...",
@@ -26,6 +26,7 @@ const Lastest = () => {
       tags: ["Blockchain", "Thương Mại Điện Tử", "Tiền Điện Tử"],
     },
     {
+      slug: "cach-tao-mot-web-app-voi-react-va-firebase",
       title: "Cách Tạo Một Web App với React và Firebase",
       excerpt:
         "Hướng dẫn chi tiết cách xây dựng một ứng dụng web hiện đại bằng React và tích hợp Firebase...",

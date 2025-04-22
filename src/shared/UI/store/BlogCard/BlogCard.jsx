@@ -10,9 +10,7 @@ import {
   BookOpen,
 } from "lucide-react";
 import Image from "next/image";
-import ModalTest from "../BlogModal/ModalTest";
-import { useState } from "react";
-import BlogModal from "../BlogModal/BlogModal";
+import Link from "next/link";
 
 const BlogCard = ({ blog }) => {
   return (
@@ -30,13 +28,14 @@ const BlogCard = ({ blog }) => {
               <BookOpen className="w-4 h-4 text-white" />
             </div>
           </div>
-          <Button
+          <Link
+            href={`/blogs/${blog?.slug}`}
             size="small"
             className="!bg-[#ffffff15] !text-white hover:!bg-[#c5ff4a22] !border-none rounded-xl text-xs"
             icon={<ExternalLink size={14} />}
           >
             Read post
-          </Button>
+          </Link>
         </div>
 
         {/* Title */}

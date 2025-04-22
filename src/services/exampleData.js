@@ -88,6 +88,7 @@ export const productsPage = [
 export const blogPosts = [
   {
     id: 1,
+    slug: "making-the-case-for-rails-monoliths-over-microservices",
     title: "Making the case for Rails monoliths over microservices",
     tags: ["architecture", "rails", "scaling"],
     image: blogImage,
@@ -97,6 +98,7 @@ export const blogPosts = [
   },
   {
     id: 2,
+    slug: "why-react-server-components-are-a-game-changer",
     title: "Why React Server Components are a game changer",
     tags: ["react", "nextjs", "rsc"],
     image: blogImage,
@@ -106,6 +108,7 @@ export const blogPosts = [
   },
   {
     id: 3,
+    slug: "tailwindcss-vs-traditional-css-who-wins",
     title: "TailwindCSS vs traditional CSS – Who wins?",
     tags: ["tailwind", "css", "ui"],
     image: blogImage,
@@ -115,6 +118,7 @@ export const blogPosts = [
   },
   {
     id: 4,
+    slug: "what-is-the-jamstack-and-why-should-you-care",
     title: "What is the JAMstack and why should you care?",
     tags: ["jamstack", "webdev", "performance"],
     image: blogImage,
@@ -124,6 +128,7 @@ export const blogPosts = [
   },
   {
     id: 5,
+    slug: "top-10-vscode-extensions-for-2025",
     title: "Top 10 VSCode Extensions for 2025",
     tags: ["vscode", "productivity", "tools"],
     image: blogImage,
@@ -133,7 +138,7 @@ export const blogPosts = [
   },
   {
     id: 6,
-
+    slug: "how-to-design-dark-mode-interfaces-the-right-way",
     title: "How to design dark mode interfaces the right way",
     tags: ["design", "ux", "darkmode"],
     image: blogImage,
@@ -143,6 +148,7 @@ export const blogPosts = [
   },
   {
     id: 7,
+    slug: "exploring-framer-motion-for-smooth-ui-animations",
     title: "Exploring Framer Motion for smooth UI animations",
     tags: ["framer", "motion", "animation"],
     image: blogImage,
@@ -152,6 +158,7 @@ export const blogPosts = [
   },
   {
     id: 8,
+    slug: "understanding-typescript-generics-in-10-minutes",
     title: "Understanding TypeScript generics in 10 minutes",
     tags: ["typescript", "ts", "tips"],
     image: blogImage,
@@ -161,6 +168,7 @@ export const blogPosts = [
   },
   {
     id: 9,
+    slug: "the-power-of-design-systems-in-modern-frontend",
     title: "The power of design systems in modern frontend",
     tags: ["designsystem", "frontend", "uiux"],
     image: blogImage,
@@ -170,6 +178,7 @@ export const blogPosts = [
   },
   {
     id: 10,
+    slug: "how-to-optimize-web-performance-with-lighthouse",
     title: "How to optimize web performance with Lighthouse",
     tags: ["performance", "lighthouse", "seo"],
     image: blogImage,
