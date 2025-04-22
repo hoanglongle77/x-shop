@@ -1,115 +1,80 @@
 "use client";
-import React, { useState } from "react";
-import { Menu, Checkbox, Slider, Input } from "antd";
-import { motion } from "framer-motion";
 
-const { Range } = Slider;
+import React from "react";
+import { Drawer, Button, Checkbox, Collapse } from "antd";
+import { FilterOutlined } from "@ant-design/icons";
+import clsx from "clsx";
 
 const Sidebar = ({
   type = "product",
-  recentItems = [],
   categories = [],
   priceRanges = [],
+  tags = [],
 }) => {
-  const [isOpen, setIsOpen] = useState(true);
-  const [selectedCategories, setSelectedCategories] = useState([]);
-  const [priceRange, setPriceRange] = useState([0, 500000]);
-  const [searchQuery, setSearchQuery] = useState("");
+  const [open, setOpen] = React.useState(false);
 
-  const handleCategoryChange = (e) => {
-    const value = e.target.value;
-    setSelectedCategories((prev) =>
-      prev.includes(value)
-        ? prev.filter((item) => item !== value)
-        : [...prev, value]
+  const filters = {
+    product: [
+      { label: "Danh mục", list: categories },
+      { label: "Khoảng giá", list: priceRanges },
+    ],
+    blog: [
+      { label: "Chủ đề", list: categories },
+      { label: "Thẻ", list: tags },
+    ],
+  };
+
+  const data = filters[type] || [];
+
+  const renderList = (list) => {
+    const safeList = Array.isArray(list) ? list : [];
+    return (
+      <Checkbox.Group className="flex flex-col gap-2">
+        {safeList.map((item) => (
+          <Checkbox key={item} value={item}>
+            {item}
+          </Checkbox>
+        ))}
+      </Checkbox.Group>
     );
   };
 
-  const handlePriceChange = (value) => {
-    setPriceRange(value);
-  };
-
-  const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value);
-  };
-
-  // Ensure categories and recentItems are arrays
-  const validCategories = Array.isArray(categories) ? categories : [];
-  const validRecentItems = Array.isArray(recentItems) ? recentItems : [];
-
-  const menuItems = [
-    {
-      label: <div className="font-semibold text-primary">Danh mục</div>,
-      key: "1",
-      children: (
-        <Checkbox.Group
-          options={validCategories}
-          value={selectedCategories}
-          onChange={handleCategoryChange}
-        />
-      ),
-    },
-    {
-      label: <div className="font-semibold text-primary">Giá</div>,
-      key: "2",
-      children: (
-        <Range
-          min={0}
-          max={1000000}
-          defaultValue={[0, 500000]}
-          onChange={handlePriceChange}
-          value={priceRange}
-          step={10000}
-          tipFormatter={(value) => `${value} VND`}
-        />
-      ),
-    },
-    {
-      label: <div className="font-semibold text-primary">Tìm kiếm</div>,
-      key: "3",
-      children: (
-        <Input
-          value={searchQuery}
-          onChange={handleSearchChange}
-          placeholder="Tìm kiếm..."
-        />
-      ),
-    },
-  ];
+  const collapseItems = data.map(({ label, list }) => ({
+    key: label,
+    label,
+    children: renderList(list),
+  }));
 
   return (
-    <motion.div
-      className={`transition-all duration-300 ease-in-out ${
-        isOpen ? "w-64" : "w-0"
-      }`}
-    >
-      <div
-        className={`bg-muted p-4 shadow-lg rounded-lg h-full ${
-          isOpen ? "block" : "hidden"
-        }`}
-      >
-        <Menu mode="inline" className="text-foreground" items={menuItems} />
-        <div className="mt-8">
-          <h3 className="text-lg font-semibold text-primary">
-            {type === "blog" ? "Bài viết mới nhất" : "Sản phẩm mới nhất"}
-          </h3>
-          {validRecentItems.map((item) => (
-            <div key={item.id} className="mt-4">
-              <a href={`/${type}/${item.id}`} className="block text-primary">
-                {item.title}
-              </a>
-            </div>
-          ))}
-        </div>
+    <>
+      {/* Mobile Button */}
+      <div className="md:hidden text-end mb-4">
+        <Button icon={<FilterOutlined />} onClick={() => setOpen(true)}>
+          Lọc
+        </Button>
       </div>
 
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 left-4 z-50 text-white p-2 bg-primary rounded-lg"
+      {/* Sidebar for Desktop */}
+      <div
+        className={clsx(
+          "hidden md:block w-full md:max-w-[250px] p-4 rounded-2xl bg-background border border-border shadow-md"
+        )}
       >
-        {isOpen ? "Ẩn" : "Hiện"} Sidebar
-      </button>
-    </motion.div>
+        <h2 className="text-lg font-semibold text-primary mb-4">Bộ lọc</h2>
+        <Collapse items={collapseItems} accordion ghost />
+      </div>
+
+      {/* Drawer for Mobile */}
+      <Drawer
+        title="Bộ lọc"
+        placement="left"
+        onClose={() => setOpen(false)}
+        open={open}
+        className="md:hidden"
+      >
+        <Collapse items={collapseItems} accordion ghost />
+      </Drawer>
+    </>
   );
 };
 

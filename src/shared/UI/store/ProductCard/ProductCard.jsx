@@ -1,11 +1,11 @@
 "use client";
-
 import { Card, Button, Typography } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import Image from "next/image";
 const { Meta } = Card;
 
-export default function ProductCard({ product }) {
+const ProductCard = ({ product }) => {
+  if (!product) return null;
   return (
     <Card
       hoverable
@@ -66,4 +66,6 @@ export default function ProductCard({ product }) {
       </div>
     </Card>
   );
-}
+};
+
+export default ProductCard;

@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Row, Col } from "antd";
-import ProductCard from "@/shared/UI/store/ProductCard/ProductCard";
+import BlogCard from "@/shared/UI/store/BlogCard/BlogCard";
 
 const container = {
   hidden: {},
@@ -18,7 +18,7 @@ const item = {
   show: { opacity: 1, y: 0 },
 };
 
-const ProductList = ({ products }) => {
+const BlogList = ({ blogs }) => {
   return (
     <motion.div
       variants={container}
@@ -27,10 +27,10 @@ const ProductList = ({ products }) => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <Row gutter={[24, 24]}>
-        {products.map((product) => (
-          <Col key={product.id} xs={24} sm={12} md={8} lg={6}>
+        {blogs.map((blog) => (
+          <Col key={blog.id} xs={24} sm={12} md={8} lg={6}>
             <motion.div variants={item}>
-              <ProductCard product={product} />
+              <BlogCard blog={blog} />
             </motion.div>
           </Col>
         ))}
@@ -39,4 +39,4 @@ const ProductList = ({ products }) => {
   );
 };
 
-export default ProductList;
+export default BlogList;

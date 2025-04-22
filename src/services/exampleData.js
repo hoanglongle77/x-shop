@@ -8,6 +8,7 @@ import product7 from "@/assets/images/products/p7.jpg";
 import product8 from "@/assets/images/products/p8.png";
 import product9 from "@/assets/images/products/p9.jpg";
 import product10 from "@/assets/images/products/p10.jpg";
+import blogImage from "@/assets/images/blogs/blog.webp";
 
 export const homePage = [];
 
@@ -81,5 +82,99 @@ export const productsPage = [
     desc: "Cao cấp - Điều chỉnh linh hoạt - Hỗ trợ lưng tốt",
     price: "12.990.000₫",
     image: product10,
+  },
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "Making the case for Rails monoliths over microservices",
+    tags: ["architecture", "rails", "scaling"],
+    image: blogImage,
+    author: "Sara Jackson",
+    readTime: "5m",
+    date: "Today",
+  },
+  {
+    id: 2,
+    title: "Why React Server Components are a game changer",
+    tags: ["react", "nextjs", "rsc"],
+    image: blogImage,
+    author: "Liam Carter",
+    readTime: "7m",
+    date: "Yesterday",
+  },
+  {
+    id: 3,
+    title: "TailwindCSS vs traditional CSS – Who wins?",
+    tags: ["tailwind", "css", "ui"],
+    image: blogImage,
+    author: "Emily Tran",
+    readTime: "4m",
+    date: "2 days ago",
+  },
+  {
+    id: 4,
+    title: "What is the JAMstack and why should you care?",
+    tags: ["jamstack", "webdev", "performance"],
+    image: blogImage,
+    author: "Mike Duong",
+    readTime: "6m",
+    date: "Today",
+  },
+  {
+    id: 5,
+    title: "Top 10 VSCode Extensions for 2025",
+    tags: ["vscode", "productivity", "tools"],
+    image: blogImage,
+    author: "Luna Park",
+    readTime: "3m",
+    date: "Last week",
+  },
+  {
+    id: 6,
+
+    title: "How to design dark mode interfaces the right way",
+    tags: ["design", "ux", "darkmode"],
+    image: blogImage,
+    author: "Rachel Lim",
+    readTime: "5m",
+    date: "Yesterday",
+  },
+  {
+    id: 7,
+    title: "Exploring Framer Motion for smooth UI animations",
+    tags: ["framer", "motion", "animation"],
+    image: blogImage,
+    author: "Chris Nguyen",
+    readTime: "8m",
+    date: "Today",
+  },
+  {
+    id: 8,
+    title: "Understanding TypeScript generics in 10 minutes",
+    tags: ["typescript", "ts", "tips"],
+    image: blogImage,
+    author: "Jayden Le",
+    readTime: "10m",
+    date: "2 days ago",
+  },
+  {
+    id: 9,
+    title: "The power of design systems in modern frontend",
+    tags: ["designsystem", "frontend", "uiux"],
+    image: blogImage,
+    author: "Vanessa Ha",
+    readTime: "6m",
+    date: "Today",
+  },
+  {
+    id: 10,
+    title: "How to optimize web performance with Lighthouse",
+    tags: ["performance", "lighthouse", "seo"],
+    image: blogImage,
+    author: "David Truong",
+    readTime: "4m",
+    date: "3 days ago",
   },
 ];
