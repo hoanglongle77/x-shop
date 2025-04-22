@@ -1,3 +1,4 @@
+import Adsense from "@/components/AdSense/AdSense";
 import CategoryHighlight from "@/components/home/CategoryHighlight/CategoryHighlight";
 import FeaturedProducts from "@/components/home/Featured/Featured";
 import HeroSection from "@/components/home/HeroSection/HeroSection";
@@ -18,6 +19,7 @@ const page = () => {
       <HeroSection />
       <CommonBG>
         <FeaturedProducts />
+        <Adsense />
         <CategoryHighlight />
         <Lastest />
       </CommonBG>
