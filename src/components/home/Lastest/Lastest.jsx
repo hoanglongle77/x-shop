@@ -1,7 +1,11 @@
 "use client";
-import CommonBG from "@/layout/CommonBG/CommonBG";
 import BlogCard from "@/shared/UI/store/BlogCard/BlogCard";
-export default function Lastest() {
+import BlogModal from "@/shared/UI/store/BlogModal/BlogModal";
+import { Row, Col } from "antd";
+import { useState } from "react";
+import React from "react";
+
+const Lastest = () => {
   const blogs = [
     {
       title: "Tương Lai của AI trong Lĩnh Vực Công Nghệ",
@@ -34,15 +38,21 @@ export default function Lastest() {
 
   return (
     <div className="relative z-10 pt-8">
-      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 text-center">
+      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8">
         Bài Viết Mới Nhất 📰
       </h2>
 
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {blogs.map((blog, index) => (
-          <BlogCard key={index} blog={blog} />
-        ))}
+      <div>
+        <Row gutter={[16, 16]}>
+          {blogs.map((blog, index) => (
+            <Col key={index} xs={24} sm={12} lg={8} xl={6}>
+              <BlogCard blog={blog} />
+            </Col>
+          ))}
+        </Row>
       </div>
     </div>
   );
-}
+};
+
+export default Lastest;

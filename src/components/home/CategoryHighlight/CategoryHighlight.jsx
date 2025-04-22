@@ -38,7 +38,7 @@ export default function CategoryHighlight() {
 
   return (
     <div className="relative z-10 py-8">
-      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 text-center tracking-tight">
+      <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 tracking-tight">
         Danh mục nổi bật
       </h2>
 
