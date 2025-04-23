@@ -29,6 +29,7 @@ const BlogCard = ({ blog }) => {
             </div>
           </div>
           <Link
+            as={Button}
             href={`/blogs/${blog?.slug}`}
             size="small"
             className="!bg-[#ffffff15] !text-white hover:!bg-[#c5ff4a22] !border-none rounded-xl text-xs"

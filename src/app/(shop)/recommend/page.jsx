@@ -1,7 +1,12 @@
+import CommonBG from "@/layout/CommonBG/CommonBG";
 import React from "react";
 
 const page = () => {
-  return <div>Recommend Page</div>;
+  return (
+    <CommonBG>
+      <div>Recommend Page</div>
+    </CommonBG>
+  );
 };
 
 export default page;
